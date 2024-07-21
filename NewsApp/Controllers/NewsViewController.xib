@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NewsViewController" customModule="NewsApp" customModuleProvider="target">
+            <connections>
+                <outlet property="activityIndicator" destination="ovT-d0-mPh" id="sXW-Fo-Os4"/>
+                <outlet property="newsTableView" destination="jpF-W0-7Hh" id="WcP-Ji-eaD"/>
+                <outlet property="noNewsLabel" destination="zZQ-4r-ISw" id="ZeR-lR-pbK"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="jpF-W0-7Hh" customClass="SelfSizingTableView" customModule="NewsApp" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </tableView>
+                <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No News Found!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zZQ-4r-ISw">
+                    <rect key="frame" x="87.000000000000014" y="408" width="219.33333333333337" height="36"/>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="30"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="ovT-d0-mPh">
+                    <rect key="frame" x="178" y="407.66666666666669" width="37" height="37"/>
+                </activityIndicatorView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="jpF-W0-7Hh" secondAttribute="bottom" id="20c-7J-Wsf"/>
+                <constraint firstItem="jpF-W0-7Hh" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="6Iv-Fa-uCy"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="jpF-W0-7Hh" secondAttribute="trailing" id="9MV-8y-XNa"/>
+                <constraint firstItem="jpF-W0-7Hh" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Hx7-SW-2a0"/>
+                <constraint firstItem="ovT-d0-mPh" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="Xzr-Cd-90w"/>
+                <constraint firstItem="zZQ-4r-ISw" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="kZ7-Mb-kar"/>
+                <constraint firstItem="ovT-d0-mPh" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="lz6-RH-tHg"/>
+                <constraint firstItem="zZQ-4r-ISw" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="qkL-05-ZD2"/>
+            </constraints>
+            <point key="canvasLocation" x="-5" y="-11"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
