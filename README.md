@@ -5,7 +5,8 @@ NewsApp là một ứng dụng di động được xây dựng theo mô hình MV
 ### FiltersViewController
 
 <img src="https://github.com/user-attachments/assets/50100b92-3f8f-4c8b-93c0-d23535bbfd34" alt="Simulator Screenshot - iPhone 15 Pro - 2024-07-22 at 00 34 41" width="350" height="800">
-
+<br>
+<br>
 FiltersViewController là màn hình đầu tiên mà người dùng sẽ thấy khi mở ứng dụng. Màn hình này cho phép người dùng chọn các tùy chọn sau:
 - Từ khoá
 - Danh mục
@@ -19,7 +20,8 @@ Khi người dùng đã chọn xong các tùy chọn và nhấn vào nút "Searc
 ### NewsViewController
 
 <img src="https://github.com/user-attachments/assets/a33db7b6-36d6-411f-a1f3-47a601f63f0c" alt="Simulator Screenshot - iPhone 15 Pro - 2024-07-22 at 00 34 54" width="350" height="800">
-
+<br>
+<br>
 NewsViewController hiển thị danh sách các bài báo thỏa mãn các điều kiện đã đặt ra ở FiltersViewController. Màn hình này sử dụng UITableView để hiển thị danh sách bài báo, cho phép người dùng dễ dàng duyệt qua các bài viết.
 
 ## Yêu cầu kỹ thuật
