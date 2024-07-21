@@ -18,7 +18,10 @@ NewsViewController hiển thị danh sách các bài báo thỏa mãn các đi�
 
 ## Yêu cầu kỹ thuật
 Dưới đây là các yêu cầu kỹ thuật đã được hoàn thành trong dự án:
-- Mô hình MVVM
+- Mô hình MVVM.
 - Hiển thị danh sách bài báo: NewsViewController sử dụng UITableView để hiển thị danh sách các bài báo.
 - Multithreading: Sử dụng async/await.
 - Request API: URLSession để request API và Codable protocol cho JSON parser.
+
+## Tài liệu API
+API mà dự án sử dụng có thể xem tại: https://mediastack.com/documentation
