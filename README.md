@@ -7,6 +7,7 @@ NewsApp là một ứng dụng di động được xây dựng theo mô hình MV
 <img src="https://github.com/user-attachments/assets/50100b92-3f8f-4c8b-93c0-d23535bbfd34" alt="Simulator Screenshot - iPhone 15 Pro - 2024-07-22 at 00 34 41" width="350" height="750">
 <br>
 <br>
+
 FiltersViewController là màn hình đầu tiên mà người dùng sẽ thấy khi mở ứng dụng. Màn hình này cho phép người dùng chọn các tùy chọn sau:
 - Từ khoá
 - Danh mục
