@@ -30,7 +30,7 @@ Dưới đây là các yêu cầu kỹ thuật đã được hoàn thành trong 
 - Mô hình MVVM.
 - Hiển thị danh sách bài báo: NewsViewController sử dụng UITableView để hiển thị danh sách các bài báo.
 - Multithreading: Sử dụng async/await.
-- Request API: URLSession để request API và Codable protocol cho JSON parser.
+- Request API: URLSession để request API và JSONDecoder, Codable protocol cho JSON parser.
 
 ## Tài liệu API
 API mà dự án sử dụng có thể xem tại: https://mediastack.com/documentation
